@@ -15,8 +15,7 @@
 一个生产者，一个消费者的模式
 
 
-
-#####work-queue
+##### work-queue
 
 [examples](https://github.com/liu149/rabbitmq-examples/tree/main/src/main/java/com/example/rabbitmq/workQueue)
 
