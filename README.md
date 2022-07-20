@@ -75,6 +75,38 @@ topic是特殊的路由模式，路由键可以配置通配符（*代表一个�
 
 ##### 接收端确认
 
+[examples](https://github.com/liu149/rabbitmq-examples/blob/main/src/main/java/com/example/rabbitmq/confirm/Sub.java)
+
+可以单个确认或者批量确认
+
+
+
+### 高级特性
+
+##### ttl
+
+[examples](https://github.com/liu149/rabbitmq-examples/tree/main/src/main/java/com/example/rabbitmq/ttl)
+
+可以将消息设置ttl，也可以将队列设置ttl（发送到队列的消息到期没消费会被丢弃）
+
+
+
+##### 死信队列
+
+[examples](https://github.com/liu149/rabbitmq-examples/tree/main/src/main/java/com/example/rabbitmq/dlx)
+
++ 消费者reject/Nack了，并且设置不入队(requeue=false)
++ 过期了
++ 超过队列最大长度
+
+
+
+##### 延迟队列
+
+[examples](https://github.com/liu149/rabbitmq-examples/tree/main/src/main/java/com/example/rabbitmq/dlx)
+
+RabbitMQ没有实现延迟队列,但是可以通过ttl+DLX来实现
+
 
 
 
