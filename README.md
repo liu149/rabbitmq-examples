@@ -59,6 +59,26 @@ topic是特殊的路由模式，路由键可以配置通配符（*代表一个�
 
 ### 高可用
 
+##### 发送端确认
+
+[examples](https://github.com/liu149/rabbitmq-examples/blob/main/src/main/java/com/example/rabbitmq/confirm/Publisher.java)
+
+
+
+##### 消息持久化
+
+[examples](https://github.com/liu149/rabbitmq-examples/tree/main/src/main/java/com/example/rabbitmq/durable)
+
+交换机、队列、消息持久化
+
+
+
+##### 接收端确认
+
+
+
+
+
 
 
 
